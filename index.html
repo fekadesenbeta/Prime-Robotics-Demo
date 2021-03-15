@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Robotics Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">    
+            <a href="#home" id="navbar__logo">Prime Robotics</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>   
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#products" class="navbar__links" id="about-page">Products</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__links" id="products-page">About</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="#contact" class="button" id="contact-page">Contact Us</a>
+                    </li>
+                </ul> 
+        </div>  
+    </nav>      
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Warehouse Robotic Automation</h1>
+            <p class="hero__description">Improve your warehouse productivity 8-10x</p>
+            <button class="main__btn"><a href="#">Try Us</a></button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+               <div class="main__img--card"></div> 
+            </div>
+            <div class="main__content">
+                <h1>We Combine Best-in-Class Robotics and Automation Expertise</h1>
+                <h2>U.S. built robots that outperform other AMR’s</h2>
+                <button class="main__btn"><a href="#">Get A Demo</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+
+    <div class="products" id="products">
+        <h1>Our Products</h1>
+        <div class="products__wrapper">
+            <div class="products__card">
+                <h2>MobileShelf</h2>
+                <div class="products__btn"><button>Get One Today</button></div>
+            </div>
+            <div class="products__card">
+                <h2>MobilePallet</h2>
+                <div class="products__btn"><button>Get One Today</button></div>
+            </div>
+            <div class="products__card">
+                <h2>The New Auto Shelf</h2>
+                <div class="products__btn"><button>Get One Today</button></div>
+            </div>
+            <div class="products__card">
+                <h2>Products Coming Soon</h2>
+                <div class="products__btn"><button>Find Out More</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer> </script>
+</body>
+</html>
